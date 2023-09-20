@@ -6,8 +6,11 @@ class Rectangle():
     # It sets an instance variable, "height" to the passed argument, height
 
     # YOUR CODE HERE
-
-
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+#done
+#ch
 
     # Create the "__str__" method
     #
@@ -22,7 +25,8 @@ class Rectangle():
     #
     # It returns a boolean
     #       True if the width and height are positive numbers
-    #       False otherwise
+    #  
+    #      False otherwise
 
     # YOUR CODE HERE
 
